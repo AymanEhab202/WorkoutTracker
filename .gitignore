@@ -1,0 +1,23 @@
+node_modules/
+dist/
+client/dist/
+server/dist/
+*.log
+.DS_Store
+Thumbs.db
+
+# Data & database files
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/backups/*
+!data/backups/.gitkeep
+!data/.gitkeep
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
